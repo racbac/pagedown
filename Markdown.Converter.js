@@ -288,7 +288,7 @@ else
             // Strip link definitions, store in hashes.
             text = _StripLinkDefinitions(text);
 
-            text = _RunBlockGamut(text);
+            text = _RunBlockGamut(text, null, true);
 
             text = _UnescapeSpecialChars(text);
 
